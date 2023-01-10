@@ -12,7 +12,7 @@ Link to the published article: [here](https://ieeexplore.ieee.org/document/95206
 
 ## Preparation
 ### Dataset
-You may execute our code by requesting the dataset from [here](https://sail.usc.edu/iemocap/) or by assessing our processed data from [here](https://drive.google.com/file/d/19GcLs3k-xB1R0y1JfX14Z46uPmNKJaLX/view?usp=share). If you choose the processed data, unzip it and store it in the data folder upon downloading. However, if you obtain the full IEMOCAP data from the link provided, unzip it and process it using the file in (scripts/data collected.ipynb).
+You may execute our code by requesting the dataset from [here](https://sail.usc.edu/iemocap/) or by assessing our processed data from [here](https://drive.google.com/file/d/19GcLs3k-xB1R0y1JfX14Z46uPmNKJaLX/view?usp=share). If you choose the processed data, unzip it and store it in the data folder upon downloading. However, if you obtain the full IEMOCAP data from the link provided, unzip and process it using the file in (scripts/data collected.ipynb or use !python mocap_data_collect.py).
 
 The dataset contains roughly ten emotions. Following previous research, our research focused just on four emotions (anger, neutral, excitement, and sadness), therefore the processed data file only comprises these four emotions. You must process the data yourself if you want to increase the number of emotions detected in your project. </p>
 
