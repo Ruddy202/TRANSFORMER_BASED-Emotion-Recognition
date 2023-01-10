@@ -6,7 +6,7 @@ Link to the published article: [here](https://ieeexplore.ieee.org/document/95206
 
 ## Basic Idea:
 
-With the procession of technology, the human-machine interaction research field is in growing need of robust automatic emotion recognition systems. Building machines that interact with humans by comprehending emotions paves the way for developing systems equipped with human-like intelligence. Previous architecture in this field often considers RNN models. However, these models are unable to learn in-depth contextual features intuitively. This paper proposes a transformer-based model that utilizes speech data instituted by previous works, alongside text and mocap data, to optimize our emotional recognition system’s performance. Our experimental result shows that the proposed model outperforms the previous state-of-the-art. The IEMOCAP dataset supported the entire experiment.
+<p align="justify"> With the procession of technology, the human-machine interaction research field is in growing need of robust automatic emotion recognition systems. Building machines that interact with humans by comprehending emotions paves the way for developing systems equipped with human-like intelligence. Previous architecture in this field often considers RNN models. However, these models are unable to learn in-depth contextual features intuitively. This paper proposes a transformer-based model that utilizes speech data instituted by previous works, alongside text and mocap data, to optimize our emotional recognition system’s performance. Our experimental result shows that the proposed model outperforms the previous state-of-the-art. The IEMOCAP dataset supported the entire experiment. </p>
 
 -----
 
@@ -14,7 +14,7 @@ With the procession of technology, the human-machine interaction research field 
 ### Dataset
 You may execute our code by requesting the dataset from [here](https://sail.usc.edu/iemocap/) or by assessing our processed data from [here](https://drive.google.com/file/d/19GcLs3k-xB1R0y1JfX14Z46uPmNKJaLX/view?usp=share). If you choose the processed data, unzip it and store it in the data folder upon downloading. However, if you obtain the full IEMOCAP data from the link provided, unzip it and process it using the file in (scripts/data collected.ipynb).
 
-The dataset contains roughly ten emotions. Following previous research, our research focused just on four emotions (anger, neutral, excitement, and sadness), therefore the processed data file only comprises these four emotions. You must process the data yourself if you want to increase the number of emotions detected in your project.
+The dataset contains roughly ten emotions. Following previous research, our research focused just on four emotions (anger, neutral, excitement, and sadness), therefore the processed data file only comprises these four emotions. You must process the data yourself if you want to increase the number of emotions detected in your project. </p>
 
 ### How to run file:
 After Data is processed (NEXT):
@@ -36,4 +36,14 @@ The code can be executed on Google Colab, Kaggle, or create your own environment
 
 Please refer to our article for more details.
 
-@INPROCEEDINGS{9520692,  author={Patamia, Rutherford Agbeshi and Jin, Wu and Acheampong, Kingsley Nketia and Sarpong, Kwabena and Tenagyei, Edwin Kwadwo},  booktitle={2021 IEEE 2nd International Conference on Pattern Recognition and Machine Learning (PRML)},   title={Transformer Based Multimodal Speech Emotion Recognition with Improved Neural Networks},   year={2021},  volume={},  number={},  pages={195-203},  doi={10.1109/PRML52754.2021.9520692}}
+<pre> <p align="justify"> @INPROCEEDINGS{9520692,  
+	author={Patamia, Rutherford Agbeshi and 
+	Jin, Wu and Acheampong, Kingsley Nketia and 
+	Sarpong, Kwabena and Tenagyei, Edwin Kwadwo},  
+	booktitle={2021 IEEE 2nd International Conference on Pattern Recognition and Machine Learning (PRML)},   
+	title={Transformer Based Multimodal Speech Emotion Recognition with Improved Neural Networks},   
+	year={2021},  
+	volume={},  
+	number={},  
+	pages={195-203},  
+	doi={10.1109/PRML52754.2021.9520692}} </p> </pre>
